@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    output: 'static',  // changed from 'export'
+    output: 'export',  // 'static' was invalid, changed back to 'export'
     images: {
       unoptimized: true
     }
